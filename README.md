@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# Compound Protocol Interaction
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+The CompoundLong contract is a smart contract that allows users to open leveraged long positions on ETH. The CompoundLiquidator contract is a smart contract that allows users to liquidate undercollateralized loans on the Compound protocol. The CompoundInteraction contract is a smart contract that allows users to interact with the Compound protocol to lend and borrow tokens.
